@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://b1sknjp8587x2"]
+
+[ext_resource type="Script" uid="uid://wgcxfyknmc4s" path="res://material_list.gd" id="1_yg74k"]
+
+[node name="MaterialBox" type="Node2D"]
+
+[node name="Title" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Materials"
+
+[node name="MaterialList" type="VBoxContainer" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_yg74k")
